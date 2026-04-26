@@ -4,7 +4,30 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "eb3f7a4c-6ec9-48cb-9b51-ce58d87b5013",
-      "type": "process"
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "io_dt_FilteredExcel": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "io_dt_FilteredExcel": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      }
     }
   ]
 }
